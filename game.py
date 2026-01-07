@@ -120,7 +120,7 @@ def solve(args):
             run_solver=run_solver,
         )
         if run_solver:
-            s1, ev1 = solution
+            s2, ev2 = solution
             for i, node in enumerate(c_nodes):
                 print(s2.T[i], node)
             print(f"expected value {-ev2}")
